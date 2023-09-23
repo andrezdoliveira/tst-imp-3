@@ -1,0 +1,25 @@
+COLUMN TABLE "VBAK_LOG" (
+    MANDT VARCHAR2 (9) Not Null,
+    VBELN VARCHAR2 (30) Not Null,
+    ERDAT VARCHAR2 (24) Not Null,
+    ERZET VARCHAR2 (18) Not Null,
+    AUART VARCHAR2 (12) Not Null,
+    LIFSK VARCHAR2 (6) Not Null,
+    FAKSK VARCHAR2 (6) Not Null,
+    WAERK VARCHAR2 (15) Not Null,
+    VKORG VARCHAR2 (12) Not Null,
+    VTWEG VARCHAR2 (6) Not Null,
+    SPART VARCHAR2 (6) Not Null,
+    KNUMV VARCHAR2 (30) Not Null,
+    KUNNR VARCHAR2 (30) Not Null,
+    AEDAT VARCHAR2 (24) Not Null,
+    KKBER VARCHAR2 (12) Not Null,
+    KNKLI VARCHAR2 (30) Not Null,
+    BUKRS_VF VARCHAR2 (12) Not Null,
+    ZZBROKER_PO VARCHAR2 (75) Not Null,
+    CDC VARCHAR (10) Not Null, 
+/*    UUIDLOG VARCHAR2 (30) Null,  */
+    TIME_STAMP TIMESTAMP Null,
+    Primary Key (MANDT,VBELN)
+  
+)

@@ -1,0 +1,12 @@
+COLUMN TABLE "MVKE_LOG" (
+    MANDT VARCHAR2 (9) Not Null,
+    MATNR VARCHAR2 (54) Not Null,
+    VKORG VARCHAR2 (12) Not Null,
+    VTWEG VARCHAR2 (6) Not Null,
+    VMSTA VARCHAR2 (6) Not Null,
+    SCMNG NUMBER (13) Not Null,
+    CDC VARCHAR (10) Not Null, 
+/*    UUIDLOG VARCHAR2 (30) Null,  */
+    TIME_STAMP TIMESTAMP Null,
+    Primary Key (MANDT,MATNR,VKORG,VTWEG)
+)
