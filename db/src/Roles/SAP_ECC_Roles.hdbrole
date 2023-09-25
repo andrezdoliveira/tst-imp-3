@@ -1,0 +1,16 @@
+{
+  "role": {
+    "name": "SAP_ECC_Roles",
+    "schema_privileges": [
+      {
+        "privileges": [
+          "DELETE",
+          "INSERT",
+          "SELECT",
+          "UPDATE",
+          "EXECUTE"
+        ]
+      }
+    ]
+  }
+}
