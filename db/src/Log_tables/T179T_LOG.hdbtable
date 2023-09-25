@@ -1,0 +1,9 @@
+COLUMN TABLE "T179T_LOG" (
+    MANDT VARCHAR2 (9) Not Null,
+    SPRAS VARCHAR2 (3) Not Null,
+    PRODH VARCHAR2 (54) Not Null,
+    VTEXT VARCHAR2 (120) Not Null,    
+    /*    UUID VARCHAR2 (30) Null,  */
+        LAST_UPDATE TIMESTAMP Null,
+        Primary Key (MANDT,SPRAS,PRODH)
+)
