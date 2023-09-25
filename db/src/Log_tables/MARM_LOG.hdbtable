@@ -1,0 +1,10 @@
+COLUMN TABLE "MARM" (
+    MANDT VARCHAR2 (9) Not Null,
+    MATNR VARCHAR2 (54) Not Null,
+    MEINH VARCHAR2 (9) Not Null,
+    UMREZ NUMBER (5) Not Null,
+    UMREN NUMBER (5) Not Null,
+    /*    UUID VARCHAR2 (30) Null,  */
+        LAST_UPDATE TIMESTAMP Null,
+        Primary Key (MANDT,MATNR,MEINH)
+)
