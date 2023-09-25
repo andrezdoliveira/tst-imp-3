@@ -1,6 +1,6 @@
 {
   "role": {
-    "name": "SAP_ECC_Roles",
+    "name": "SAP_ECC_TRIGGERS",
     "schema_privileges": [
       {
         "privileges": [
