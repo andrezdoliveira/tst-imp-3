@@ -3,6 +3,7 @@ COLUMN TABLE "VBAK_LOG" (
     VBELN VARCHAR2 (30) Not Null,
     ERDAT VARCHAR2 (24) Not Null,
     ERZET VARCHAR2 (18) Not Null,
+    AUDAT VARCHAR2 (24) Not Null,
     AUART VARCHAR2 (12) Not Null,
     LIFSK VARCHAR2 (6) Not Null,
     FAKSK VARCHAR2 (6) Not Null,
