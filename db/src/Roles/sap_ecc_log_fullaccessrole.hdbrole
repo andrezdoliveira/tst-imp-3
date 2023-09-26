@@ -1,0 +1,8 @@
+{
+    "role": {
+    "name": "SAP_ECC_LOG_FullAccessRole",
+    "schema_privileges": [{
+       "privileges": ["SELECT", "INSERT", "UPDATE", "EXECUTE", "DELETE"]
+        }]
+    }
+}

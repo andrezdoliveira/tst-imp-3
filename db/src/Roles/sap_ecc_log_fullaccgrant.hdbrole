@@ -1,0 +1,8 @@
+{
+    "role": {
+    "name": "SAP_ECC_LOG_FULLACC#",
+    "schema_privileges": [{
+        "privileges_with_grant_option": ["SELECT METADATA", "SELECT", "INSERT", "UPDATE", "EXECUTE", "DELETE", "CREATE TEMPORARY TABLE", "ALTER" ]
+        }]   
+     }
+}

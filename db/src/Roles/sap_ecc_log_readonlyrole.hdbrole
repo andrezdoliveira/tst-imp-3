@@ -1,0 +1,8 @@
+{
+    "role": {
+    "name": "SAP_ECC_LOG_ReadOnlyRole",
+    "schema_privileges": [{
+       "privileges": ["SELECT"]
+        }]
+    }
+}
