@@ -4,7 +4,8 @@ COLUMN TABLE "MARM_LOG" (
     MEINH VARCHAR2 (9) Not Null,
     UMREZ NUMBER (5) Not Null,
     UMREN NUMBER (5) Not Null,
-    /*    UUID VARCHAR2 (30) Null,  */
-        LAST_UPDATE TIMESTAMP Null,
+    CDC VARCHAR (10) Not Null, 
+/*    UUIDLOG VARCHAR2 (30) Null,  */
+    TIME_STAMP TIMESTAMP Null,
         Primary Key (MANDT,MATNR,MEINH)
 )
