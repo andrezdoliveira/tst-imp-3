@@ -10,8 +10,11 @@ NTGEW NUMBER (13) Not Null,
 PRDHA VARCHAR2 (54) Not Null,
 MSTAE VARCHAR2 (6) Not Null,
 MFRNR VARCHAR2 (30) Not Null,
+UUID VARCHAR2 (30) Null,
 CDC VARCHAR (10) Not Null, 
-/*    UUIDLOG VARCHAR2 (30) Null,  */
+UUIDLOG VARBINARY (16) Null,  
 TIME_STAMP TIMESTAMP Null,
-    Primary Key (MANDT,MATNR)
+Primary Key (UUIDLOG)
+/*
+    Primary Key (MANDT,MATNR) */
 )

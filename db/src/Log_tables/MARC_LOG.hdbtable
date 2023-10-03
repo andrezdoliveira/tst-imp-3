@@ -3,8 +3,11 @@ COLUMN TABLE "MARC_LOG" (
     MATNR VARCHAR2 (54) Not Null,
     WERKS VARCHAR2 (12) Not Null,
     STEUC VARCHAR2 (48) Not Null,
+    UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
-/*    UUIDLOG VARCHAR2 (30) Null,  */
-    TIME_STAMP TIMESTAMP Null,  
-Primary Key (MANDT,MATNR,WERKS)
+    UUIDLOG VARBINARY (16) Null,  
+    TIME_STAMP TIMESTAMP Null,
+    Primary Key (UUIDLOG)
+    /*
+Primary Key (MANDT,MATNR,WERKS)*/
 )

@@ -7,9 +7,12 @@ COLUMN TABLE "VBUK_LOG" (
     FSSTK VARCHAR2 (3) Not Null,
     LSSTK VARCHAR2 (3) Not Null,
     SPSTG VARCHAR2 (3) Not Null,
+    UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
-/*    UUIDLOG VARCHAR2 (30) Null,  */
+    UUIDLOG VARBINARY (16) Null,  
     TIME_STAMP TIMESTAMP Null,
-    Primary Key (MANDT,VBELN)
+    Primary Key (UUIDLOG)
+    /*
+    Primary Key (MANDT,VBELN) */
 
 )

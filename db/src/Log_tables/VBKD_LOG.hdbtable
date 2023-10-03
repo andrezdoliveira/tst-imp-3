@@ -9,8 +9,11 @@ COLUMN TABLE "VBKD_LOG" (
     BSTDK VARCHAR2 (24) Not Null,
     BSARK VARCHAR2 (12) Not Null,
     BSTDK_E VARCHAR2 (24) Not Null,    
+    UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
-    /*    UUIDLOG VARCHAR2 (30) Null,  */
-        TIME_STAMP TIMESTAMP Null,
-        Primary Key (MANDT,VBELN,POSNR)
+    UUIDLOG VARBINARY (16) Null,  
+    TIME_STAMP TIMESTAMP Null,
+    Primary Key (UUIDLOG)
+    /*
+        Primary Key (MANDT,VBELN,POSNR) */
 )

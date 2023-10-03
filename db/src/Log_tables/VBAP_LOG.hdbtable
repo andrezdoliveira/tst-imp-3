@@ -31,9 +31,12 @@ COLUMN TABLE "VBAP_LOG" (
     J_1BTAXLW3 VARCHAR2 (9) Not Null,
     J_1BTAXLW4 VARCHAR2 (9) Not Null,
     J_1BTAXLW5 VARCHAR2 (9) Not Null,
+    UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
-/*    UUIDLOG VARCHAR2 (30) Null,  */
+    UUIDLOG VARBINARY (16) Null,  
     TIME_STAMP TIMESTAMP Null,
-    Primary Key (MANDT,VBELN,POSNR)
+    Primary Key (UUIDLOG)
+    /*
+    Primary Key (MANDT,VBELN,POSNR) */
 
 )

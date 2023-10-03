@@ -4,8 +4,11 @@ COLUMN TABLE "T023T_LOG" (
     MATKL VARCHAR2 (27) Not Null,
     WGBEZ VARCHAR2 (60) Not Null,
     WGBEZ60 VARCHAR2 (180) Not NulL,
+    UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
-/*    UUIDLOG VARCHAR2 (30) Null,  */
+    UUIDLOG VARBINARY (16) Null,  
     TIME_STAMP TIMESTAMP Null,
-    Primary Key (MANDT,SPRAS,MATKL)
+    Primary Key (UUIDLOG)
+    /*
+    Primary Key (MANDT,SPRAS,MATKL)*/
 )

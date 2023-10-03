@@ -18,8 +18,11 @@ COLUMN TABLE "VBEP_LOG" (
     CMENG NUMBER (13) Not Null,
     LIFSP VARCHAR2 (6) Not Null,
     BWART VARCHAR2 (9) Not Null,
+    UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
-/*    UUIDLOG VARCHAR2 (30) Null,  */
+    UUIDLOG VARBINARY (16) Null,  
     TIME_STAMP TIMESTAMP Null,
-    Primary Key (MANDT,VBELN,POSNR,ETENR)
+    Primary Key (UUIDLOG)
+    /*
+    Primary Key (MANDT,VBELN,POSNR,ETENR)*/
 )

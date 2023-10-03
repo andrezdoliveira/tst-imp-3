@@ -4,8 +4,11 @@ COLUMN TABLE "MAKT_LOG" (
     SPRAS VARCHAR2 (3) Not Null,
     MAKTX VARCHAR2 (120) Not Null,
     MAKTG VARCHAR2 (120) Not Null,
+    UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
-/*    UUIDLOG VARCHAR2 (30) Null,  */
+    UUIDLOG VARBINARY (16) Null,  
     TIME_STAMP TIMESTAMP Null,
-    Primary Key (MANDT,MATNR,SPRAS)
+    Primary Key (UUIDLOG)
+    /*
+    Primary Key (MANDT,MATNR,SPRAS,CDC)*/
 )
