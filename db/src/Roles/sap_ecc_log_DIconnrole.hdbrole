@@ -2,7 +2,7 @@
     "role": {
     "name": "SAP_ECC_LOG_DIConnRole",
     "schema_privileges": [{
-       "privileges": ["SELECT METADATA", "SELECT CDS METADATA", "SELECT", "INSERT", "UPDATE", "EXECUTE", "DELETE", "CREATE TEMPORARY TABLE" ]
+       "privileges": ["SELECT METADATA", "SELECT CDS METADATA", "SELECT", "INSERT", "UPDATE", "EXECUTE", "DELETE", "CREATE TEMPORARY TABLE", "CREATE ANY" ]
         }]
     }
 }
