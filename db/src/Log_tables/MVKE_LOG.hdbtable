@@ -4,7 +4,7 @@ COLUMN TABLE "MVKE_LOG" (
     VKORG VARCHAR2 (12) Not Null,
     VTWEG VARCHAR2 (6) Not Null,
     VMSTA VARCHAR2 (6) Not Null,
-    SCMNG NUMBER (13) Not Null,
+    SCMNG NUMBER (13,3) Not Null,
     UUID VARCHAR2 (30) Null,
     CDC VARCHAR (10) Not Null, 
     UUIDLOG VARBINARY (16) Null,  
