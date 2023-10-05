@@ -5,6 +5,6 @@ COLUMN TABLE "KNVI_LOG" (
     TATYP VARCHAR2 (12) Not Null,
     TAXKD VARCHAR2 (3) Null,
     --Campos extra de tablas log
-    CDC VARCHAR (10) Not Null,UUIDLOG VARCHAR2 (30) Null,TIME_STAMP VARCHAR2 (50) Not Null,
+    CDC VARCHAR (10) Not Null,UUID VARCHAR2 (100) Not Null,UUIDLOG VARCHAR2 (100) Null,TIME_STAMP VARCHAR2 (50) Not Null,
     Primary Key (MANDT, KUNNR, ALAND, TATYP, CDC) 
 )
